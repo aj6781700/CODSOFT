@@ -25,4 +25,4 @@ Input: "Congratulations! You won a free lottery!"
 Output: **Spam**
 
 ## 🔗 Author
-- Your Name
+- Adarsh Kumar jha 
