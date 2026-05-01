@@ -66,6 +66,118 @@ Accuracy alone is not reliable due to class imbalance, so precision and recall w
 ### ▶️ How to Run
 1. Upload dataset  
 2. Run notebook  
-3. View predictions  
+3. View predictions
+
 
 ---
+
+
+
+
+
+
+
+
+# 🎬 Movie Genre Classification
+
+## 📌 Project Overview
+
+This project predicts the genre of a movie based on its text description using Machine Learning techniques.
+It is a simple NLP-based classification model built for learning and demonstration purposes.
+
+---
+
+## 🚀 Features
+
+* Text preprocessing (cleaning, lowercasing, punctuation removal)
+* Feature extraction using TF-IDF
+* Genre classification using Naive Bayes algorithm
+* Simple and easy-to-understand implementation
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* Pandas
+* Scikit-learn
+* TF-IDF Vectorizer
+* Naive Bayes
+
+---
+
+## 📊 Dataset
+
+A small custom dataset was used for demonstration, containing movie descriptions and their genres:
+
+* Action
+* Romance
+* Comedy
+* Horror
+
+⚠️ Note: This is a small dataset, so accuracy may be low.
+
+---
+
+## 🧠 Model Workflow
+
+1. Data Loading
+2. Text Cleaning
+3. Feature Extraction (TF-IDF)
+4. Label Encoding
+5. Train-Test Split
+6. Model Training (Naive Bayes)
+7. Prediction & Evaluation
+
+---
+
+## 📈 Results
+
+* Accuracy: ~33%
+* Due to the small dataset size, performance is limited.
+
+---
+
+## 🎯 Key Insight
+
+Accuracy is low because the dataset is very small.
+With a larger dataset, the model performance can be significantly improved.
+
+---
+
+## ▶️ How to Run
+
+1. Open the notebook in Google Colab
+2. Run all cells step by step
+3. Enter a custom movie description to test predictions
+
+---
+
+## 📌 Example
+
+Input:
+
+```
+A haunted house with ghosts and scary events
+```
+
+Output:
+
+```
+Horror
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Use a larger real-world dataset
+* Apply advanced models like Logistic Regression or Deep Learning
+* Improve preprocessing and feature engineering
+
+---
+
+## 👨‍💻 Author
+
+Adarsh
+
